@@ -54,8 +54,8 @@
                   style="background-color: rgb(68, 66, 66);border-color: #272727;"
                 />
                 <span class="icon is-small is-left" style="padding:0 5px;">
-                  <!-- <i class="fas fa-search"></i> -->
-                  <img :src="eyes" />
+                  <i class="fas fa-search"></i>
+                  <!-- <img :src="eyes" /> -->
                 </span>
               </p>
             </div>
