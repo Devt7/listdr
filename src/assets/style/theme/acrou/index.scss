@@ -205,8 +205,16 @@ body {
 }
 
 input.input.is-rounded.search-input {
-  background-color: rgb(32, 44, 63) !important;
+  color: #444444;
+  border-color: #1863ff24;
+  background-color: #ffffff85!important;
 }
+
+input::placeholder {
+  opacity: 0.5;
+  color: #8293b6!important;
+}
+
 
 .index-button-copy {
   background: 0 0;
