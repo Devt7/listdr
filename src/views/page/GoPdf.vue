@@ -1,8 +1,8 @@
 <template>
   <div class="content g2-content">
-    <!-- <object :data="url" type="application/pdf" name="file.pdf">
+    <object :data="url" type="application/pdf" name="file.pdf">
       <embed :src="url" type="application/pdf" />
-    </object> -->
+    </object>
     <!-- <pdf src="./path/to/static/relativity.pdf"></pdf> -->
 <h1>{{url}}</h1>
 
@@ -11,12 +11,12 @@
 
 <script>
 import { decode64 } from "@utils/AcrouUtil";
-import pdf from 'vue-pdf'
+// import pdf from 'vue-pdf'
 
 export default {
-  components: {
-    pdf
-  },
+  // components: {
+  //   pdf
+  // },
   data: function() {
     return {};
   },
