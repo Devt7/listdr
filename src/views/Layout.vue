@@ -1,6 +1,7 @@
 <template>
   <div>
     <Head></Head>
+    <APlayer />
     <section class="section">
       <div class="container">
         <feb-alive>
@@ -9,7 +10,7 @@
         <Footer></Footer>
       </div>
     </section>
-    <APlayer />
+  
   </div>
 </template>
 
