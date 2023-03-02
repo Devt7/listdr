@@ -3,15 +3,15 @@
     <!-- <object :data="url" type="application/pdf" name="file.pdf">
       <embed :src="url" type="application/pdf" />
     </object> -->
-    <pdf src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"></pdf>
-
+    <!-- <pdf src="./path/to/static/relativity.pdf"></pdf> -->
+<h1>Test</h1>
 
   </div>
 </template>
 
 <script>
 import { decode64 } from "@utils/AcrouUtil";
-import pdf from 'vue-pdf';
+import pdf from 'vue-pdf'
 
 export default {
   components: {
