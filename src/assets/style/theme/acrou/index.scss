@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "iconfont"; /* project id 1760192 */
+  font-family: "iconfont";
+  /* project id 1760192 */
   src: url("//at.alicdn.com/t/font_1760192_tl9awsq3di.eot");
-  src: url("//at.alicdn.com/t/font_1760192_tl9awsq3di.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("//at.alicdn.com/t/font_1760192_tl9awsq3di.eot?#iefix") format("embedded-opentype"),
     url("//at.alicdn.com/t/font_1760192_tl9awsq3di.woff2") format("woff2"),
     url("//at.alicdn.com/t/font_1760192_tl9awsq3di.woff") format("woff"),
     url("//at.alicdn.com/t/font_1760192_tl9awsq3di.ttf") format("truetype"),
@@ -77,6 +77,7 @@ body {
 
 .g2-content {
   margin-top: 1rem;
+  height: 75vh;
 }
 
 .footer {
@@ -208,6 +209,7 @@ body {
   .aplayer-body {
     left: -66px !important;
   }
+
   .aplayer-body:hover {
     left: 0px !important;
   }
@@ -219,6 +221,7 @@ body {
       font-size: 14px;
       color: orange;
     }
+
     p {
       font-weight: 700;
     }

@@ -31,7 +31,7 @@ export default {
         preload: "auto",
         ...options,
         container: this.container,
-        fixed: true,
+        fixed: false,
         audio: this.audios || [],
       };
     },
