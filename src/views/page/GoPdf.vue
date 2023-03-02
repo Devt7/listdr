@@ -22,7 +22,6 @@ export default {
   computed: {
     url() {
       if (this.$route.params.path) {
-        console.log(decode64(this.$route.params.path));
         return decode64(this.$route.params.path);
       }
       return ''
