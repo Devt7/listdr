@@ -4,7 +4,7 @@
       <embed :src="url" type="application/pdf" />
     </object> -->
     <!-- <pdf src="./path/to/static/relativity.pdf"></pdf> -->
-<h1>Test</h1>
+<h1>{{url}}</h1>
 
   </div>
 </template>
@@ -23,8 +23,8 @@ export default {
   computed: {
     url() {
       if (this.$route.params.path) {
-        console.log(this.$route.params.path);
-        console.log(decode64(this.$route.params.path));
+        // console.log(this.$route.params.path);
+      
         return decode64(this.$route.params.path);
       }
       return ''
