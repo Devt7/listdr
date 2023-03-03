@@ -58,12 +58,14 @@ a.navbar-item:hover {
   flex-shrink: 0!important;
 }
 
+
 .navbar.is-dark .navbar-start .navbar-link:after {
   border-color: #55687d73!important;
 }
 
-.navbar.is-dark .navbar-end .navbar-link, .navbar.is-dark .navbar-end>.navbar-item, .navbar.is-dark .navbar-start .navbar-link, .navbar.is-dark .navbar-start>.navbar-item {
-  color: #8095ad!important;
+
+.navbar.is-dark .navbar-end .navbar-link,.navbar.is-dark .navbar-end>.navbar-item,.navbar.is-dark .navbar-start .navbar-link,.navbar.is-dark .navbar-start>.navbar-item {
+  color:#53667bba!important
 }
 
 .breadcrumb:not(:last-child) {
