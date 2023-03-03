@@ -34,6 +34,25 @@ body {
   overflow: hidden;
 }
 
+a.navbar-item:hover {
+  background-color: #8494d2;
+  color: #fff;
+}
+
+.navbar-item {
+  color: #4e618a;
+}
+.navbar-item.has-dropdown {
+  padding: 0;
+  height: 38px;
+  background: white;
+  margin: 7px;
+  box-shadow: 0px 0px 10px #d8d8d887;
+  border-radius: 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
 .breadcrumb:not(:last-child) {
   margin: 0.5rem 0;
   padding: 0 0.75em;
