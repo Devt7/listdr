@@ -40,7 +40,7 @@ a.navbar-item:hover {
 }
 
 .navbar-item {
-  color: #4e618a!important;
+  color: #8095ad!important;
 }
 .navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link {
   background-color: #1f57966b!important;
@@ -57,12 +57,13 @@ a.navbar-item:hover {
   flex-grow: 0!important;
   flex-shrink: 0!important;
 }
-.navbar-link, .navbar.is-dark .navbar-start>.navbar-item {
-  color: #8095ad!important;
-}
 
 .navbar.is-dark .navbar-start .navbar-link:after {
   border-color: #55687d73!important;
+}
+
+.navbar.is-dark .navbar-end .navbar-link, .navbar.is-dark .navbar-end>.navbar-item, .navbar.is-dark .navbar-start .navbar-link, .navbar.is-dark .navbar-start>.navbar-item {
+  color: #8095ad!important;
 }
 
 .breadcrumb:not(:last-child) {
