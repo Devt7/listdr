@@ -42,10 +42,15 @@ a.navbar-item:hover {
 .navbar-item {
   color: #4e618a;
 }
+.navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link {
+  background-color: #1f57966b;
+  border-radius: 8px;
+  color: #fff;
+}
 .navbar-item.has-dropdown {
   padding: 0;
   height: 38px;
-  background: white;
+  background: #ffffff9e;
   margin: 7px;
   box-shadow: 0px 0px 10px #d8d8d887;
   border-radius: 8px;
