@@ -57,6 +57,13 @@ a.navbar-item:hover {
   flex-grow: 0!important;
   flex-shrink: 0!important;
 }
+.navbar-link, .navbar.is-dark .navbar-start>.navbar-item {
+  color: #8095ad!important;
+}
+
+.navbar.is-dark .navbar-start .navbar-link:after {
+  border-color: #55687d73!important;
+}
 
 .breadcrumb:not(:last-child) {
   margin: 0.5rem 0;
